@@ -1,0 +1,435 @@
+{
+    "https://scholars.ncu.edu.tw/zh/persons/yung-fang-chen": {
+        "name": "Chen, Y. F.",
+        "papers": [
+            "3D Human Model Reconstruction Based on Implicit Representation"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jia-ching-wang": {
+        "name": "Wang, J. C.",
+        "papers": [
+            "3D Human Model Reconstruction Based on Implicit Representation",
+            "3D mapping of fire hotspot in East Rinjani forest area using GIS and remote sensing",
+            "Advancing Robust Few-shot Surface Defect Detection through Meta-learning",
+            "Attention-Guided Prototype Mixing: Diversifying Minority Context on Imbalanced Whole Slide Images Classification Learning",
+            "Audio Pre-Processing and Beamforming Implementation on Embedded Systems",
+            "Detecting Abnormal Machine Sounds Using An Ensemble Approach with Data Augmentation Techniques",
+            "Editorial for Special Issue on Invited Papers from APSIPA ASC 2023",
+            "Enhanced Detection of Illegally Parked Vehicles Using YOLO and Good Feature to Track Methods",
+            "Enhancing Breast Cancer Detection: A Novel Training Strategy and Batch Scheduler Method",
+            "EVA-ASCA: Enhancing Voice Anti-Spoofing through Attention-based Similarity Weights and Contrastive Negative Attractors",
+            "Few-Shot Image Segmentation Using Generating Mask with Meta-Learning Classifier Weight Transformer Network",
+            "HAPiCLR: heuristic attention pixel-level contrastive loss representation learning for self-supervised pretraining",
+            "Implementation of Sound Direction Detection and Mixed Source Separation in Embedded Systems",
+            "Integrating VGGSK and BEATs for Enhanced Sound Event Detection: A Semi-Supervised GRU-Based System with Weak Labels and Synthetic Soundscapes",
+            "Knowledge Sharing via Mimicking Attention Guided-Discriminative Features in Whole Slide Image Classification",
+            "LCSL: Long-Tailed Classification via Self-Labeling",
+            "Leveraging Attention Mechanisms for Breast Cancer Diagnosis",
+            "Lightweight Brain Tumor Diagnosis via Knowledge Distillation",
+            "Multi-view and multi-augmentation for self-supervised visual representation learning",
+            "Optimizing Acoustic Echo Cancellation with Variable Step Size in Adaptive Filtering",
+            "SCENE TEXT RECOGNITION USING PROGRESSIVE RECTIFICATION NETWORK AND SPELLING ERROR CORRECTION LANGUAGE MODEL",
+            "Seismic-ionospheric Precursor Prediction Using Deep Learning",
+            "Self-supervised Learning and Masked Language Model for Code-switching Automatic Speech Recognition",
+            "Self-Supervised Learning via Multi-Transformation Classification for Action Recognition",
+            "Semantic-Based Public Opinion Analysis System",
+            "Target Speaker Extraction Using Attention-Enhanced Temporal Convolutional Network",
+            "Zero-FVeinNet: Optimizing Finger Vein Recognition with Shallow CNNs and Zero-Shuffle Attention for Low-Computational Devices"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-yu-lin": {
+        "name": "Lin, C. Y.",
+        "papers": [
+            "A Cluster-based Privacy-Enhanced Hierarchical Federated Learning Framework with Secure Aggregation",
+            "An Implementation of Blockchain-based Federated Learning Framework",
+            "Applying Competition-Based Learning to Stimulate Students' Practical and Competitive AI Ability in a Machine Learning Curriculum",
+            "Dynamic and Static Features Extraction for Deepfake Detection",
+            "FedCLO: Federated Learning with Clustered Layer-wise Communication Load Optimization",
+            "Few Shot Ultra Fine-Grained Visual Classification for Defect Detection",
+            "Improving student learning performance in machine learning curricula: A comparative study of online problem-solving competitions in Chinese and English-medium instruction settings",
+            "Inpainting-based Anomaly Detection System with Self-supervised Learning",
+            "Key Expansion Based on Elliptic Curve Cryptography for Anonymous Voting",
+            "Privacy-preserving Federated Learning for Industrial Defect Detection Systems via Differential Privacy and Image Obfuscation",
+            "Supervised Intrusion Detection with Out-of-Distribution Detection for Microservices",
+            "Unveiling the Black Box: An XAI-based Anti-Money Laundering Model",
+            "Visualization-oriented Natural Language Interfaces for Grafana Dashboard",
+            "WiFi-TCN: Temporal Convolution for Human Interaction Recognition Based on WiFi Signal"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-ru-chung": {
+        "name": "Chung, C. R.",
+        "papers": [
+            "ACP-CapsPred: An explainable computational framework for identification and functional prediction of anticancer peptides based on capsule network",
+            "AMPActiPred: A three-stage framework for predicting antibacterial peptides and activity levels with deep forest",
+            "An ensemble deep learning model for predicting minimum inhibitory concentrations of antimicrobial peptides against pathogenic bacteria",
+            "Anti-Drugs Chatbot: Chinese BERT-Based Cognitive Intent Analysis",
+            "A two-stage computational framework for identifying antiviral peptides and their functional types based on contrastive learning and multi-feature fusion strategy",
+            "CapsEnhancer: An Effective Computational Framework for Identifying Enhancers Based on Chaos Game Representation and Capsule Network",
+            "Dyslexia Analysis and Diagnosis Based on Eye Movement",
+            "Identifying Antitubercular Peptides via Deep Forest Architecture with Effective Feature Representation",
+            "Impaired Brain-Heart Relation in Patients With Methamphetamine Use Disorder During VR Induction of Drug Cue Reactivity",
+            "Interpretable Multi-Scale Deep Learning for RNA Methylation Analysis across Multiple Species",
+            "KinPred-RNA—kinase activity inference and cancer type classification using machine learning on RNA-seq data",
+            "Virtual-Reality-Based Supermarket for Intellectual Disability Classification, Diagnostics, and Assessment"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/min-te-sun": {
+        "name": "Sun, M. T.",
+        "papers": [
+            "A deep reinforcement learning system for the allocation of epidemic prevention materials based on DDPG",
+            "Barrier Penetration Routing Against Wireless Spy Sensors",
+            "BMT-BENCH: A BENCHMARK SPORTS DATASET FOR VIDEO GENERATION",
+            "Enhancing real-time PM2.5 forecasts: A hybrid approach of WRF-CMAQ model and CNN algorithm",
+            "From Data to Action: CTI Analysis and ATT&CK Technique Correlation",
+            "GENPIA: A Genre-Conditioned Piano Music Generation System",
+            "Modeling Real-Time Task Assignment for Mobile Crowdsourcing in Opportunistic Networks",
+            "On Federated Multi-Armed Bandits for Mobile Social Networks",
+            "On Wireless Charging for Mobile Sensors",
+            "PedCross: Pedestrian Crossing Prediction for Auto-Driving Bus",
+            "Priority-Aware Task Assignment in Opportunistic Network-Based Mobile Crowdsourcing",
+            "SILP: Enhancing skin lesion classification with spatial interaction and local perception",
+            "VideoBadminton: A Video Dataset for Badminton Action Recognition"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/de-ron-liang": {
+        "name": "Liang, D.",
+        "papers": [
+            "Analysis and prediction of virtual machine boot time on virtualized computing environments",
+            "Correction to: Role of Comprehensive Income in Predicting Bankruptcy (Computational Economics, (2023), 62, 2, (689-720), 10.1007/s10614-022-10328-5)",
+            "Detecting Low-Yield Machines in Batch Production Systems Based on Observed Defective Pieces",
+            "Multistage Parameter Optimization for Rule Generation for Multistage Manufacturing Processes",
+            "SmartDetect: Safe Driving by Detecting Steering-Wheel Handling With a Single Smartwatch",
+            "Splitting long-term and short-term financial ratios for improved financial distress prediction: Evidence from Taiwanese public companies"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/wei-jen-wang": {
+        "name": "Wang, W. J.",
+        "papers": [
+            "Analysis and prediction of virtual machine boot time on virtualized computing environments",
+            "Detecting Low-Yield Machines in Batch Production Systems Based on Observed Defective Pieces",
+            "Multistage Parameter Optimization for Rule Generation for Multistage Manufacturing Processes",
+            "WebShell Detection Based on CodeBERT and Deep Learning Model"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chen-chung-liu": {
+        "name": "Liu, C. C.",
+        "papers": [
+            "Analysis of a chatbot as a dialogic reading facilitator: its influence on learning interest and learner interactions",
+            "Teachable Q&A Agent: The Effect of Chatbot Training by Students on Reading Interest and Engagement",
+            "The effect of the cyclic curricular design of modelling-based instruction with virtual labs",
+            "The learning analytics of computational scientific modeling with self-explanation for subgoals and demonstration scaffolding"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-hui-chang": {
+        "name": "Chang, C. H.",
+        "papers": [
+            "Analysis of a chatbot as a dialogic reading facilitator: its influence on learning interest and learner interactions",
+            "A Narrative Assistant for Traffic Accidents Based on Large Language Models (LLM)",
+            "Cost-Effective Event Mining on the Web via Event Source Page Discovery and Data API Construction",
+            "Data-driven numerical simulation with extended Kalman filtering and long short-term memory networks for highway traffic flow prediction",
+            "Fine-Grained Meetup Events Extraction Through Context-Aware Event Argument Positioning and Recognition",
+            "Forecasting of Global Ionosphere Maps With Multi-Day Lead Time Using Transformer-Based Neural Networks",
+            "Legal knowledge management for prosecutors based on judgment prediction and error analysis from indictments",
+            "Prosecutorial Outcome Predication with LoRA and QLoRA",
+            "Teachable Q&A Agent: The Effect of Chatbot Training by Students on Reading Interest and Engagement"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/li-ching-wu": {
+        "name": "Wu, L. C.",
+        "papers": [
+            "An ensemble deep learning model for predicting minimum inhibitory concentrations of antimicrobial peptides against pathogenic bacteria"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jorng-tzong-horng": {
+        "name": "Horng, J. T.",
+        "papers": [
+            "An ensemble deep learning model for predicting minimum inhibitory concentrations of antimicrobial peptides against pathogenic bacteria"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/ying-nong-chen": {
+        "name": "Chen, Y. N.",
+        "papers": [
+            "An improved deep sequential model for context-aware POI recommendation",
+            "EVALUATING DEEP LEARNING SEMANTIC SEGMENTATION ARCHITECTURES FOR MANGROVE MAPPING AND MONITORING USING SENTINEL-2 DATA (CASE STUDY: COASTAL ZONE OF ROOKERY BAY, FLORIDA, USA)",
+            "LinkNet-Spectral-Spatial-Temporal Transformer Based on Few-Shot Learning for Mangrove Loss Detection with Small Dataset",
+            "Performance comparison of different algorithms for land surface temperature (LST) retrieval from Landsat-8 and the use of deep neural network regression to enhance the LST result (Case Study: Dallas, Texas and surrounding areas)",
+            "Spatial-Spectral-Temporal Deep Regression Model With Convolutional Long Short-Term Memory and Transformer for the Large-Area Mapping of Mangrove Canopy Height by Using Sentinel-1 and Sentinel-2 Data"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/yung-yu-zhuang": {
+        "name": "Zhuang, Y. Y.",
+        "papers": [
+            "An interactive programming learning environment supporting paper computing and immediate evaluation for making thinking visible and traceable",
+            "Resolving the Java Representation Exposure Problem with an AST-Based Deep Copy and Flexible Alias Ownership System",
+            "The method and implementation of a Taiwan building recognition model based on YOLOX-S and illustration enhancement"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/fu-hau-hsu": {
+        "name": "Hsu, F. H.",
+        "papers": [
+            "A Novel Approach Using OCR Technology to Combat Deceptive Click Attacks",
+            "A Vehicle Forensics framework with Post-Quantum Cryptography and Blockchain",
+            "Enhancing Linux System Security: A Kernel-Based Approach to Fileless Malware Detection and Mitigation",
+            "MPSD: A Robust Defense Mechanism against Malicious PowerShell Scripts in Windows Systems"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hsiao-kuang-wu": {
+        "name": "Wu, E. H. K.",
+        "papers": [
+            "Anti-Drugs Chatbot: Chinese BERT-Based Cognitive Intent Analysis",
+            "Clustering APT Groups Through Cyber Threat Intelligence by Weighted Similarity Measurement",
+            "Deep Recognition of Facial Expressions in Movies",
+            "Dyslexia Analysis and Diagnosis Based on Eye Movement",
+            "Fusion of Multi-Task Neurophysiological Data to Enhance the Detection of Attention-Deficit/Hyperactivity Disorder",
+            "Impaired Brain-Heart Relation in Patients With Methamphetamine Use Disorder During VR Induction of Drug Cue Reactivity",
+            "Intelligent ADHD Detection Using Explainable Multimodal Fusion Model",
+            "MITREtrieval: Retrieving MITRE Techniques From Unstructured Threat Reports by Fusion of Deep Learning and Ontology",
+            "Neural Reactivity to Haptics: Virtual Tasks versus Physical Tasks",
+            "Virtual reality based Neural Sensors with Respirator for Cardiorespiratory Synchrony Training System",
+            "Virtual-Reality-Based Supermarket for Intellectual Disability Classification, Diagnostics, and Assessment"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hsuan-ren": {
+        "name": "Ren, H.",
+        "papers": [
+            "Application of InSAR technology to investigate the surface deformation of the 0403 Hualien seismic series",
+            "Classification of Airborne Radar Images Using Multiscale Dense Networks and Comparative Filtering Techniques",
+            "Hyperspectral Tensor Completion Using Low-Rank Modeling and Convex Functional Analysis",
+            "Pushing Boundaries in Hyperspectral Image Classification: A Comparative Analysis of CTMixer, SF-SMF, and MAEST"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chung-pai-chang": {
+        "name": "Chang, C. P.",
+        "papers": [
+            "Application of InSAR technology to investigate the surface deformation of the 0403 Hualien seismic series"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/tseng-yi-chen": {
+        "name": "Chen, T. Y.",
+        "papers": [
+            "Are Superpages Super-fast? Distilling Flash Blocks to Unify Flash Pages of a Superpage in an SSD",
+            "Implementing Content-Defined Chunking for Deduplication in Host-Managed SSDs",
+            "OC-DLRM: Minimizing the I/O Traffic of DLRM Between Main Memory and OCSSD"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/tzong-han-tsai": {
+        "name": "Tsai, R. T. H.",
+        "papers": [
+            "Automated Assessment of Fidelity and Interpretability: An Evaluation Framework for Large Language Models' Explanations",
+            "Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages",
+            "Conversational Product Recommendation using LLM",
+            "Enhancing ESG Reporting Analysis: Leveraging GPT and Resampling Methods for Improved Multi-Label Classification",
+            "Enhancing Taiwanese Hokkien Dual Translation by Exploring and Standardizing of Four Writing Systems",
+            "GPT4ESG: Streamlining Environment, Society, and Governance Analysis with Custom AI Models",
+            "Image classification for historical documents: a study on Chinese local gazetteers",
+            "NCU-IISR: Enhancing Biomedical Question Answering with GPT-4 and Retrieval Augmented Generation in BioASQ 12b Phase B",
+            "Surveying biomedical relation extraction: a critical examination of current datasets and the proposal of a new resource",
+            "The overview of the BioRED (Biomedical Relation Extraction Dataset) track at BioCreative VIII",
+            "Tri-directional Hypergraph Contrastive Learning for Session-based Recommendation"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jehn-ruey-jiang": {
+        "name": "Jiang, J. R.",
+        "papers": [
+            "Benchmarks and Recommendations for Quantum, Digital, and GPU Annealers in Combinatorial Optimization",
+            "Disturbance Insertion for Improving Quantum and GPU Annealer Performance",
+            "Utilizing Quantum Circuits to Simulate and Learn Quantum Internet Core Mechanisms"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/kuo-chin-fan": {
+        "name": "Fan, K. C.",
+        "papers": [
+            "CASML: Combining Cross-Scale Attention and Separate Mix-Layer for Lightweight Classification Network",
+            "LinkNet-Spectral-Spatial-Temporal Transformer Based on Few-Shot Learning for Mangrove Loss Detection with Small Dataset",
+            "MEDIATrack: Advanced Matching Strategy for Detection-Based Multi-Object Tracking",
+            "PANDA: A Polarized Attention Network for Enhanced Unsupervised Domain Adaptation in Semantic Segmentation",
+            "RATs-NAS: Redirection of Adjacent Trails on Graph Convolutional Networks for Predictor-Based Neural Architecture Search",
+            "SET-NAS: SAMPLE-EFFICIENT TRAINING FOR NEURAL ARCHITECTURE SEARCH WITH STRONG PREDICTOR AND STRATIFIED SAMPLING",
+            "Spatial-Spectral-Temporal Deep Regression Model With Convolutional Long Short-Term Memory and Transformer for the Large-Area Mapping of Mangrove Canopy Height by Using Sentinel-1 and Sentinel-2 Data",
+            "Strengthening 3D Point Cloud Classification through Self-Attention and Plane Features",
+            "Using a Bunch Testing Time Augmentations to Detect Rice Plants Based on Aerial Photography"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chih-fong-tsai": {
+        "name": "Tsai, C. F.",
+        "papers": [
+            "Correction to: Role of Comprehensive Income in Predicting Bankruptcy (Computational Economics, (2023), 62, 2, (689-720), 10.1007/s10614-022-10328-5)"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/li-der-chou": {
+        "name": "Chou, L. D.",
+        "papers": [
+            "Cross-layer detection and defence mechanism against DDoS and DRDoS attacks in software-defined networks using P4 switches",
+            "EBPF-Based Network Monitoring Platform on Kubernetes",
+            "Machine Learning Based 5G Network Slicing Management and Classification"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/feng-nan-hwang": {
+        "name": "Hwang, F. N.",
+        "papers": [
+            "Data-driven numerical simulation with extended Kalman filtering and long short-term memory networks for highway traffic flow prediction",
+            "Forecasting of Global Ionosphere Maps With Multi-Day Lead Time Using Transformer-Based Neural Networks"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/k-shih": {
+        "name": "Shih, T. K.",
+        "papers": [
+            "Deciphering pixel insights: A deep dive into deep learning strategies for enhanced indoor depth estimation",
+            "Human Action Recognition and Note Recognition: A Deep Learning Approach Using STA-GCN",
+            "Indonesia Traffic Sign Recognition Using a One-Stage Detector YOLOv8",
+            "Indoor staircase detection for supporting security systems in autonomous smart wheelchairs based on deep analysis of the Co-occurrence Matrix and Binary Classification",
+            "Multi-hop Video Super Resolution with Long-Term Consistency (MVSRGAN)",
+            "Preface",
+            "Using Deep Learning for Text to Asia Music Generation",
+            "Using Hybrid Models for Action Correction in Instrument Learning Based on AI",
+            "WiFi-TCN: Temporal Convolution for Human Interaction Recognition Based on WiFi Signal"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jieh-haur-chen": {
+        "name": "Chen, J. H.",
+        "papers": [
+            "Developing Rules for Rental Subsidy: An Empirical Housing Study in Taiwan",
+            "Enhancing Detection of Falls and Bed-Falls Using a Depth Sensor and Convolutional Neural Network",
+            "Establishing automatic coating paths: empirical study for steel component production"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/mu-chun-su": {
+        "name": "Su, M. C.",
+        "papers": [
+            "Developing Rules for Rental Subsidy: An Empirical Housing Study in Taiwan",
+            "Enhancing Detection of Falls and Bed-Falls Using a Depth Sensor and Convolutional Neural Network",
+            "Establishing automatic coating paths: empirical study for steel component production"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/gwo-dong-chen": {
+        "name": "Chen, G. D.",
+        "papers": [
+            "Digital Twins of Pet Robots to Prolong Interdependent Relationships and Effects on Student Learning Performance",
+            "Integrate an AI Chatbot-Based Learning Butler Digital system to enhance Students’ Grit and Growth Mindset for Improving Learning Outcomes"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/stephen-jh-yang": {
+        "name": "Yang, S. J. H.",
+        "papers": [
+            "DNA of learning behaviors: A novel approach of learning performance prediction by NLP",
+            "Learning pathways composed of core subjects with features of reducing cognitive load have better learning outcomes",
+            "Trustworthy and Explainable AI for Learning Analytics",
+            "Using machine learning to identify key subject categories predicting the pre-clerkship and clerkship performance: 8-year cohort study"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/shih-ching-yeh": {
+        "name": "Yeh, S. C.",
+        "papers": [
+            "Dyslexia Analysis and Diagnosis Based on Eye Movement",
+            "Fusion of Multi-Task Neurophysiological Data to Enhance the Detection of Attention-Deficit/Hyperactivity Disorder",
+            "Impaired Brain-Heart Relation in Patients With Methamphetamine Use Disorder During VR Induction of Drug Cue Reactivity",
+            "Intelligent ADHD Detection Using Explainable Multimodal Fusion Model",
+            "Neural Reactivity to Haptics: Virtual Tasks versus Physical Tasks",
+            "Virtual reality based Neural Sensors with Respirator for Cardiorespiratory Synchrony Training System",
+            "Virtual-Reality-Based Supermarket for Intellectual Disability Classification, Diagnostics, and Assessment"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hsu-yung-cheng": {
+        "name": "Cheng, H. Y.",
+        "papers": [
+            "Enhancing Badminton Game Analysis: An Approach to Shot Refinement via a Fusion of Shuttlecock Tracking and Hit Detection from Monocular Camera",
+            "Enhancing Face Angle Transformation through Progressive Face Pose Transfer Using Multiple Discriminators",
+            "Feature Weighted Cycle Generative Adversarial Network with Facial Landmark Recognition and Perceptual Color Distance for Enhanced Face Animation Generation",
+            "Incremental Scene Classification Using Dual Knowledge Distillation and Classifier Discrepancy on Natural and Remote Sensing Images",
+            "Semantic Segmentation of Satellite Images for Landslide Detection Using Foreground-Aware and Multi-Scale Convolutional Attention Mechanism",
+            "Separable ConvNet Spatiotemporal Mixer for Action Recognition",
+            "Solar Power Generation Forecast Using Multivariate Convolution Gated Recurrent Unit Network"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hao-tsung-yang": {
+        "name": "Yang, H. T.",
+        "papers": [
+            "Enhancing Linux System Security: A Kernel-Based Approach to Fileless Malware Detection and Mitigation",
+            "MPSD: A Robust Defense Mechanism against Malicious PowerShell Scripts in Windows Systems"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/fang-yi-cheng": {
+        "name": "Cheng, F. Y.",
+        "papers": [
+            "Enhancing real-time PM2.5 forecasts: A hybrid approach of WRF-CMAQ model and CNN algorithm"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/yuan-chien-lin": {
+        "name": "Lin, Y. C.",
+        "papers": [
+            "Enhancing real-time PM2.5 forecasts: A hybrid approach of WRF-CMAQ model and CNN algorithm"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/ching-han-chen": {
+        "name": "Chen, C. H.",
+        "papers": [
+            "ERCNet: Enhancing ReActNet with a Compact ECA Branch",
+            "High-Performance Chip Design With Parallel Architecture for Magnetic Field Imaging System",
+            "Intelligent classifier for various degrees of coffee roasts using smart multispectral vision system",
+            "ReActXGB: A Hybrid Binary Convolutional Neural Network Architecture for Improved Performance and Computational Efficiency"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/po-chyi-su": {
+        "name": "Su, P. C.",
+        "papers": [
+            "Exploiting Style Transfer and Semantic Segmentation to Facilitate Infrared and Visible Image Fusion",
+            "JENet: A JPEG Compliant Image Steganographic Scheme",
+            "JSN: Design and Analysis of JPEG Steganography Network",
+            "UFCC: A Unified Forensic Approach to Locating Tampered Areas in Still Images and Detecting Deepfake Videos by Evaluating Content Consistency"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/cissi-ying-tsen-lin": {
+        "name": "Lin, C. Y. T.",
+        "papers": [
+            "Forecasting of Global Ionosphere Maps With Multi-Day Lead Time Using Transformer-Based Neural Networks"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chun-chuan-chen": {
+        "name": "Chen, C. C.",
+        "papers": [
+            "Fusion of Multi-Task Neurophysiological Data to Enhance the Detection of Attention-Deficit/Hyperactivity Disorder",
+            "Impaired Brain-Heart Relation in Patients With Methamphetamine Use Disorder During VR Induction of Drug Cue Reactivity",
+            "Intelligent ADHD Detection Using Explainable Multimodal Fusion Model"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/wu-yuan-hwang": {
+        "name": "Hwang, W. Y.",
+        "papers": [
+            "GENPIA: A Genre-Conditioned Piano Music Generation System"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/tak-wai-chan": {
+        "name": "Chan, T. W.",
+        "papers": [
+            "How to encourage students continue learning English on podcast? The perspectives of stimulus-organism-response and interest driven creator theory"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chih-yang-lin": {
+        "name": "Lin, C. Y.",
+        "papers": [
+            "Indonesia Traffic Sign Recognition Using a One-Stage Detector YOLOv8",
+            "Indoor staircase detection for supporting security systems in autonomous smart wheelchairs based on deep analysis of the Co-occurrence Matrix and Binary Classification",
+            "Multi-hop Video Super Resolution with Long-Term Consistency (MVSRGAN)",
+            "WiFi-TCN: Temporal Convolution for Human Interaction Recognition Based on WiFi Signal"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hui-ju-hung": {
+        "name": "Hung, H. J.",
+        "papers": [
+            "Learning to Solve Combinatorial Optimization Problems on Graphs with State-Aware Multi-Relation Aggregation",
+            "Leveraging Transfer Learning for Enhancing Graph Optimization Problem Solving"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hung-hsuan-chen": {
+        "name": "Chen, H. H.",
+        "papers": [
+            "Multivariate Beta Mixture Model: Probabilistic Clustering with Flexible Cluster Shapes"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-chi-lu": {
+        "name": "Lu, C. C.",
+        "papers": [
+            "Splitting long-term and short-term financial ratios for improved financial distress prediction: Evidence from Taiwanese public companies"
+        ]
+    }
+}

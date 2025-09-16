@@ -9,7 +9,9 @@ import os
 import re # 用於正則表達式處理作者字符串
 
 # --- 配置區 ---
-START_URL = 'https://scholars.ncu.edu.tw/zh/publications/?organisationIds=3e96fdff-eb87-4166-8e98-56399da65648&nofollow=true&publicationYear=2022&publicationYear=2023&publicationYear=2024'
+# START_URL = 'https://scholars.ncu.edu.tw/zh/publications/?organisationIds=3e96fdff-eb87-4166-8e98-56399da65648&nofollow=true&publicationYear=2022'
+# START_URL = 'https://scholars.ncu.edu.tw/zh/publications/?organisationIds=3e96fdff-eb87-4166-8e98-56399da65648&nofollow=true&publicationYear=2023'
+START_URL = 'https://scholars.ncu.edu.tw/zh/publications/?organisationIds=3e96fdff-eb87-4166-8e98-56399da65648&nofollow=true&publicationYear=2024'
 OUTPUT_FILENAME = 'ncu_papers_selenium_full_authors.json' # 更新文件名
 WAIT_TIMEOUT = 45
 PAGE_LOAD_TIMEOUT = 120

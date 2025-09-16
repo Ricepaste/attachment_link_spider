@@ -1,0 +1,445 @@
+{
+    "https://scholars.ncu.edu.tw/zh/persons/yung-fang-chen": {
+        "name": "Chen, Y. F.",
+        "papers": [
+            "3D Face Reconstruction Based on Weakly-Supervised Learning Morphable Face Model",
+            "Mask Generation with Meta-Learning Classifier Weight Transformer Network for Few-Shot Image Segmentation"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jia-ching-wang": {
+        "name": "Wang, J. C.",
+        "papers": [
+            "3D Face Reconstruction Based on Weakly-Supervised Learning Morphable Face Model",
+            "A DEEP LEARNING-BASED FAKE NEWS DETECTING SYSTEM",
+            "Anti-Aliasing Attention U-net Model for Skin Lesion Segmentation",
+            "Anti-aliasing convolution neural network of finger vein recognition for virtual reality (VR) human–robot equipment of metaverse",
+            "CNEG-VC: Contrastive Learning Using Hard Negative Example In Non-Parallel Voice Conversion",
+            "Code-Switching Speech Synthesis Based on Self-Supervised Learning and Domain Adaptive Speaker Encoder",
+            "Cyclic Transfer Learning for Mandarin-English Code-Switching Speech Recognition",
+            "Deep Learning for Human Action Recognition: A Comprehensive Review",
+            "Dense Adversarial Transfer Learning Based On Class-Invariance",
+            "Discriminative Vector Learning with Application to Single Channel Speech Separation",
+            "Editorial for the Special Issue on Learning, Security, AIoT for Emerging Communication/Networking Systems",
+            "Electrocardiogram Heartbeat Classification for Arrhythmias and Myocardial Infarction",
+            "EMIX: A Data Augmentation Method for Speech Emotion Recognition",
+            "Enhancing Automatic Speech Recognition Performance Through Multi-Speaker Text-to-Speech",
+            "Ensemble Learning Technique with A Novelty Multiĝ€'Source Information for Stock Price Movements",
+            "Mask Generation with Meta-Learning Classifier Weight Transformer Network for Few-Shot Image Segmentation",
+            "On the Optimal Self-Supervised Multi-Fault Detector for Temperature Sensor Data",
+            "QUESTION ANSWERING SYSTEM BASED ON PRE-TRAINING MODEL AND RETRIEVAL RERANKING FOR INDUSTRY 4.0",
+            "Selinet: A Lightweight Model for Single Channel Speech Separation",
+            "STUA-Net: A Fingerprint Reconstruction with Swin Transformer and Soft Collective Attention",
+            "The COVIDTW study: Clinical predictors of COVID-19 mortality and a novel AI prognostic model using chest X-ray",
+            "Zero-Shot Voice Conversion Based on Speaker Embedding Domain Generalization"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/ching-han-chen": {
+        "name": "Chen, C. H.",
+        "papers": [
+            "3D Facial Reconstruction Applied to Medical Cosmetology",
+            "Reconfigurable Hardware Accelerator of Morphological Image Processor"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/li-der-chou": {
+        "name": "Chou, L. D.",
+        "papers": [
+            "5G/B5G Network Slice Management via Staged Reinforcement Learning",
+            "GAP4NSH: a genetic service function chaining with network service header for P4-based software-defined networks",
+            "NNSplit-SØREN: Supporting the model implementation of large neural networks in a programmable data plane",
+            "Using ChatGPT on Improving Program Performance with pprof and Benchmark"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hsiao-kuang-wu": {
+        "name": "Wu, E. H. K.",
+        "papers": [
+            "5G Handover Analysis in Real Network",
+            "Advanced, Innovative AIoT and Edge Computing for Unmanned Vehicle Systems in Factories",
+            "Correlation of cyber threat intelligence with sightings for intelligence assessment and augmentation",
+            "Host-based intrusion detection with multi-datasource and deep learning",
+            "Intelligent Geomagnetic Indoor Positioning System",
+            "Neuronal Correlates of Task Irrelevant Distractions Enhance the Detection of Attention Deficit/Hyperactivity Disorder",
+            "Qigong Master: A Qigong-Based Attention Training Game Using Action Recognition and Balance Analysis",
+            "QoE Sustainability on 5G and Beyond 5G Networks",
+            "Reinforcement Learning for Dynamic Channel Assignment Using Predicted Mobile Traffic",
+            "The Implementation of Interactive VR Application and Caching Strategy Design on Mobile Edge Computing (MEC)",
+            "The Swallowing Intelligent Assessment System Based on Tongue Strength and Surface EMG",
+            "Two-phase Defense Against Poisoning Attacks on Federated Learning-based Intrusion Detection",
+            "Using wearable sensors to study the brain-heart interactions during attentional and resting states"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-ru-chung": {
+        "name": "Chung, C. R.",
+        "papers": [
+            "ABPCaps: A Novel Capsule Network-Based Method for the Prediction of Antibacterial Peptides",
+            "Accelerating the Discovery of Anticancer Peptides through Deep Forest Architecture with Deep Graphical Representation",
+            "A risk assessment framework for multidrug-resistant Staphylococcus aureus using machine learning and mass spectrometry technology",
+            "Data-Driven Two-Stage Framework for Identification and Characterization of Different Antibiotic-Resistant Escherichia coli Isolates Based on Mass Spectrometry Data",
+            "DeepAFP: An effective computational framework for identifying antifungal peptides based on deep learning",
+            "Identification of species-specific RNA N6-methyladinosine modification sites from RNA sequences",
+            "Multi-label classification and features investigation of antimicrobial peptides with various functional classes",
+            "Neuronal Correlates of Task Irrelevant Distractions Enhance the Detection of Attention Deficit/Hyperactivity Disorder",
+            "Predicting Anti-inflammatory Peptides by Ensemble Machine Learning and Deep Learning",
+            "Qigong Master: A Qigong-Based Attention Training Game Using Action Recognition and Balance Analysis",
+            "Rapid and Accurate Discrimination of Mycobacterium abscessus Subspecies Based on Matrix-Assisted Laser Desorption Ionization-Time of Flight Spectrum and Machine Learning Algorithms",
+            "StackTHPred: Identifying Tumor-Homing Peptides through GBDT-Based Feature Selection with Stacking Ensemble Architecture",
+            "Towards Accurate Identification of Antibiotic-Resistant Pathogens through the Ensemble of Multiple Preprocessing Methods Based on MALDI-TOF Spectra",
+            "Trend of HPV Molecular Epidemiology in the Post-Vaccine Era: A 10-Year Study"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/guey-yun-chang": {
+        "name": "Chang, G. Y.",
+        "papers": [
+            "A CSI Prediction Scheme for Satellite-Terrestrial Networks"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-yu-lin": {
+        "name": "Lin, C. Y.",
+        "papers": [
+            "A Deep Learning-based General Defect Detection Framework for Automated Optical Inspection",
+            "A Deep Learning-based Microsection Measurement Framework for Print Circuit Boards",
+            "AI, Please Help Me Choose a Course: Building a Personalized Hybrid Course Recommendation System to Assist Students in Choosing Courses Adaptively",
+            "An Ensemble of Supervised Learning and Image Inpainting for Mura Detection",
+            "Booming Blooming: When Can You Enjoy Flowering Season?",
+            "CHFDS: Clustered-based Hierarchical Federated Learning Framework with Differential Privacy and Secure Aggregation",
+            "Continual Learning with Out-of-Distribution Data Detection for Defect Classification",
+            "Deep learning based atomic defect detection framework for two-dimensional materials",
+            "Gated Tri-Tower Transformer (GT3) - An Inflated Power Generation Attack Detector for Microgrids",
+            "Homomorphic Encryption-Based Similarity Calculation for Mobile Data Usage Prediction",
+            "Image Inpainting with Self-Supervised Learning for Mura Detection System",
+            "License Plate Restoration System",
+            "Red Light, Green Light Game System based on IoT Devices",
+            "ResUnet-GAN with Dynamic Memory for Mura Defect Detection"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hsuan-ren": {
+        "name": "Ren, H.",
+        "papers": [
+            "A Discussion on the Goldstein Filtering Parameters Within the Snap Software"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/gwo-dong-chen": {
+        "name": "Chen, G. D.",
+        "papers": [
+            "Advancing Education through Stakeholder Engagement: An Evaluation of the Learning Butler Chatbot's Impact on Instructors, and Learners",
+            "A Pet-Like Model for Educational Robots: Using Interdependence Theory to Enhance Learning and Sustain Long-Term Relationships",
+            "Applying cooperative learning with role division to learn recursion",
+            "Creating Meaningful Connections: The Role of Simultaneous Multi-Situational Learning in Knowledge Contextualization and Application",
+            "Embodied Learning Through Drama-Based Situatedness Using Immersive Technology in the Classroom",
+            "Exploring the Impact of Designing a Robot as a Pet with Interdependence Theory on Long-Term Relationships and Learning Performance",
+            "Integrating a Chatbot and the Concepts of Grit and Growth Mindset into a Mobile Game-Based Learning System"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/stephen-jh-yang": {
+        "name": "Yang, S. J. H.",
+        "papers": [
+            "AI with supporting technologies entrusts diversity and inclusion in research issues for underrepresented students in educational applications",
+            "A Review of AI-Driven Conversational Chatbots Implementation Methodologies and Challenges (1999–2022)",
+            "Effects of artificial Intelligence–Enabled personalized recommendations on learners’ learning engagement, motivation, and outcomes in a flipped classroom",
+            "Guest Editorial: Human-centered AI in Education: Augment Human Intelligence with Machine Intelligence",
+            "Personalized Intervention based on the Early Prediction of At-risk Students to Improve Their Learning Performance"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/tseng-yi-chen": {
+        "name": "Chen, T. Y.",
+        "papers": [
+            "Alleviating the Impact of Fingerprint Operations on NAND Flash Memory Storage Performance",
+            "HSMR-RAID: Enabling a Low Overhead RAID-5 System over a Host-managed Shingled Magnetic Recording Disk Array",
+            "ICCE 2023 Learning Outcomes of Computer Programming and Information Technology -Integrated Courses for Non-Computer Science Majors: Case Study of a Public Research University in Taiwan",
+            "LaDy: Enabling Locality-aware Deduplication Technology on Shingled Magnetic Recording Drives",
+            "Skyrmion Vault: Maximizing Skyrmion Lifespan for Enabling Low-Power Skyrmion Racetrack Memory"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/fu-hau-hsu": {
+        "name": "Hsu, F. H.",
+        "papers": [
+            "An Active User-Side Detector for Evil Twins",
+            "Defending IoT Devices against Bluetooth Worms with Bluetooth OBEX Proxy"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/k-shih": {
+        "name": "Shih, T. K.",
+        "papers": [
+            "Analysis of Kernel Performance in Support Vector Machine Using Seven Features Extraction for Obstacle Detection",
+            "An Improved Speed Estimation Using Deep Homography Transformation Regression Network on Monocular Videos",
+            "Enhancing Single Object Tracking With a Hybrid Approach: Temporal Convolutional Networks, Attention Mechanisms, and Spatial-Temporal Memory",
+            "FDD: a deep learning–based steel defect detectors",
+            "Feature selection of gray-level Cooccurrence matrix using genetic algorithm with Extreme learning machine classification for early detection of Pole roads",
+            "Fine-Tuning Vision Transformer for Arabic Sign Language Video Recognition on Augmented Small-Scale Dataset",
+            "Robust Signboard Detection and Recognition in Real Environments",
+            "Rule-based Explaining Module: Enhancing the Interpretability of Recurrent Relational Network in Sudoku Solving",
+            "Selecting Control Menu on Electric Wheelchair Using Eyeball Movement for Diffable Person"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chih-yang-lin": {
+        "name": "Lin, C. Y.",
+        "papers": [
+            "An Improved Speed Estimation Using Deep Homography Transformation Regression Network on Monocular Videos",
+            "Enhancing Single Object Tracking With a Hybrid Approach: Temporal Convolutional Networks, Attention Mechanisms, and Spatial-Temporal Memory",
+            "FDD: a deep learning–based steel defect detectors",
+            "Feature selection of gray-level Cooccurrence matrix using genetic algorithm with Extreme learning machine classification for early detection of Pole roads",
+            "Robust Signboard Detection and Recognition in Real Environments",
+            "Rule-based Explaining Module: Enhancing the Interpretability of Recurrent Relational Network in Sudoku Solving"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jehn-ruey-jiang": {
+        "name": "Jiang, J. R.",
+        "papers": [
+            "An Indoor Location-Based Augmented Reality Framework",
+            "A Quick Overview of Quantum Machine Learning",
+            "Classifying and Benchmarking Quantum Annealing Algorithms Based on Quadratic Unconstrained Binary Optimization for Solving NP-Hard Problems",
+            "Credit Card Fraud Detection Based on DeepInsight and Deep Learning",
+            "Deep Learning Multi-objective Optimization for Smart Manufacturing via Elitist Genetic Algorithm",
+            "Distributed Shor's Algorithm with Sequential Quantum Teleportation",
+            "Manufacturing Quality Prediction Based on Deep Learning in Conjunction with Gramian Angular and Markov Transition Fields",
+            "Novel Quantum Circuit Designs for the Oracle of Grover's Algorithm to Solve the Vertex Cover Problem",
+            "Quantum Circuit Based on Grover's Algorithm to Solve Exact Cover Problem",
+            "Solving Hamiltonian Cycle Problem with Grover's Algorithm Using Novel Quantum Circuit Designs",
+            "Solving Maximum Independent Set Problem Using Analog Neutral Atom Quantum Computers",
+            "Transfer Learning for Fingerprint-based Indoor Localization Calibration"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/po-wei-harn": {
+        "name": "Harn, P. W.",
+        "papers": [
+            "A Novel Quadtree-Based Genetic Programming Search for Searchable Encryption Optimization",
+            "Multiple ground/aerial parcel delivery problem: a Weighted Road Network Voronoi Diagram based approach"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/min-te-sun": {
+        "name": "Sun, M. T.",
+        "papers": [
+            "A Novel Quadtree-Based Genetic Programming Search for Searchable Encryption Optimization",
+            "A secure annuli CAPTCHA system",
+            "CA-Wav2Lip: Coordinate Attention-based Speech to Lip Synthesis in the Wild",
+            "HoneyContainer: Container-based Webshell Command Injection Defending and Backtracking",
+            "Multiple ground/aerial parcel delivery problem: a Weighted Road Network Voronoi Diagram based approach",
+            "PairingNet: A Multi-Frame Based Vehicle Trajectory Prediction Deep Learning Network",
+            "Privacy-Preserving Collaborative Filtering Using Fully Homomorphic Encryption",
+            "QNet: A Quantum-Native Sequence Encoder Architecture",
+            "Reinforcement Learning for Dynamic Channel Assignment Using Predicted Mobile Traffic",
+            "Rendezvous Avoidance File Caching for Mobile Social Networks",
+            "Statistical Comparison ARIMA Order Performance In Stock Market",
+            "Taillight Signal Recognition via Sequential Learning",
+            "Utility-Based Task Assignment for ON-based Mobile Crowdsourcing"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/yi-chiung-hsu": {
+        "name": "Hsu, Y. C.",
+        "papers": [
+            "Anti-Aliasing Attention U-net Model for Skin Lesion Segmentation",
+            "Electrocardiogram Heartbeat Classification for Arrhythmias and Myocardial Infarction",
+            "The COVIDTW study: Clinical predictors of COVID-19 mortality and a novel AI prognostic model using chest X-ray"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/po-chyi-su": {
+        "name": "Su, P. C.",
+        "papers": [
+            "A Pixel-Based Character Detection Scheme for Texts with Arbitrary Orientations in Natural Scenes",
+            "Improving Compressed Video Using Single Lightweight Model with Temporal Fusion Module †",
+            "Quality Assessment of Image Retargeting based on Importance of Objects",
+            "Selecting Suitable Data Input for Deep-Learning Sign-Language Recognition with a Small Dataset"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/yung-yu-zhuang": {
+        "name": "Zhuang, Y. Y.",
+        "papers": [
+            "Applying cooperative learning with role division to learn recursion",
+            "The algorithm and implementation of an extension to LLVM for solving the blocking between instruction sink and division-modulo combine"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jorng-tzong-horng": {
+        "name": "Horng, J. T.",
+        "papers": [
+            "A risk assessment framework for multidrug-resistant Staphylococcus aureus using machine learning and mass spectrometry technology",
+            "Data-Driven Two-Stage Framework for Identification and Characterization of Different Antibiotic-Resistant Escherichia coli Isolates Based on Mass Spectrometry Data",
+            "Mixed Attitude towards ChatGPT on Social Media: Digital Emotion Contagion or Knowledge Sharing",
+            "Mixed Attitude towards ChatGPT on Social Media: Digital Emotion Contagion or Knowledge Sharing",
+            "Multi-label classification and features investigation of antimicrobial peptides with various functional classes",
+            "Semantics as Persuasive Cues in Donation-Based Crowdfunding Campaigns: The Moderating Role of Donation Category",
+            "Towards Accurate Identification of Antibiotic-Resistant Pathogens through the Ensemble of Multiple Preprocessing Methods Based on MALDI-TOF Spectra",
+            "Unravelling Consumer Engagement in Influencer Marketing: An Exploratory UGC Analysis"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/tzong-han-tsai": {
+        "name": "Tsai, R. T. H.",
+        "papers": [
+            "Automatic Extraction of Medication Mentions from Tweets - Overview of the BioCreative VII Shared Task 3 Competition",
+            "MingOfficial: A Ming Official Career Dataset and a Historical Context-Aware Representation Learning Framework",
+            "NCU-IISR: Prompt Engineering on GPT-4 to Stove Biological Problems in BioASQ 11b Phase B"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/li-ching-wu": {
+        "name": "Wu, L. C.",
+        "papers": [
+            "Data-Driven Two-Stage Framework for Identification and Characterization of Different Antibiotic-Resistant Escherichia coli Isolates Based on Mass Spectrometry Data",
+            "Multi-label classification and features investigation of antimicrobial peptides with various functional classes",
+            "Towards Accurate Identification of Antibiotic-Resistant Pathogens through the Ensemble of Multiple Preprocessing Methods Based on MALDI-TOF Spectra",
+            "Unravelling Consumer Engagement in Influencer Marketing: An Exploratory UGC Analysis"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/tak-wai-chan": {
+        "name": "Chan, T. W.",
+        "papers": [
+            "Design and implement a achievement system for Enhancing students' interest and self-efficacy in mathematics",
+            "Exploring the Impact on Student Reading Preferences in Gamified Reading Portfolio",
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan",
+            "Replies to commentaries on IDC Theory in practice",
+            "The Impact of Development-questioning Activities on Students' Pre-writing Ideas"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hung-hsuan-chen": {
+        "name": "Chen, H. H.",
+        "papers": [
+            "Detecting Inaccurate Sensors on a Large-Scale Sensor Network Using Centralized and Localized Graph Neural Networks",
+            "Detecting Inactive Cyberwarriors from Online Forums",
+            "Petrel: Personalized Trend Line Estimation with Limited Labels from One Individual",
+            "Toward Efficient and Incremental Spectral Clustering via Parametric Spectral Clustering"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/kuo-chin-fan": {
+        "name": "Fan, K. C.",
+        "papers": [
+            "Develop a Lightweight Convolutional Neural Network to Recognize Palms Using 3D Point Clouds",
+            "Siamese-NAS: Using Trained Samples Efficiently to Find Lightweight Neural Architecture by Prior Knowledge",
+            "Special Issue Review: Artificial Intelligence and Machine Learning Applications in Remote Sensing",
+            "Traffic Light Detection by Integrating Feature Fusion and Attention Mechanism"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/wei-jen-wang": {
+        "name": "Wang, W. J.",
+        "papers": [
+            "Evaluation of a decided sample size in machine learning applications",
+            "Optimization of message delivery reliability and throughput in a DDS-based system with per-publisher sending rate adjustment",
+            "Using Block Filter Device for Acceleration of Storage Synchronization on Fault-tolerant Virtual Machines",
+            "Using wearable sensors to study the brain-heart interactions during attentional and resting states"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chun-chuan-chen": {
+        "name": "Chen, C. C.",
+        "papers": [
+            "Evaluation of a decided sample size in machine learning applications",
+            "Neuronal Correlates of Task Irrelevant Distractions Enhance the Detection of Attention Deficit/Hyperactivity Disorder",
+            "Using wearable sensors to study the brain-heart interactions during attentional and resting states"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/ying-nong-chen": {
+        "name": "Chen, Y. N.",
+        "papers": [
+            "EVALUATION OF DEEP LEARNING SEMANTIC SEGMENTATION FOR LAND COVER MAPPING ON MULTISPECTRAL, HYPERSPECTRAL AND HIGH SPATIAL AERIAL IMAGERY",
+            "MODIFIED U-NET BY ADDING TWIN EXTRACTORS FOR MULTI-SENSOR SATELLITE IMAGES FUSION TO MAP MANGROVE FOREST",
+            "Special Issue Review: Artificial Intelligence and Machine Learning Applications in Remote Sensing"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chia-hui-chang": {
+        "name": "Chang, C. H.",
+        "papers": [
+            "EventGo! Mining Events Through Semi-Supervised Event Title Recognition and Pattern-based Venue/Date Coupling",
+            "ICCE 2023 Learning Outcomes of Computer Programming and Information Technology -Integrated Courses for Non-Computer Science Majors: Case Study of a Public Research University in Taiwan",
+            "Improving Chinese Fact Checking via Prompt Based Learning and Evidence Retrieval",
+            "Improving colloquial case legal judgment prediction via abstractive text summarization",
+            "New Horizons of Legal Judgement Predication via Multi-Task Learning and LoRA",
+            "Story Co-telling Dialogue Generation based on Multi-Agent Reinforcement Learning and Story Hightlights",
+            "The Design and Analysis of a Storytelling Chatbot with Natural Language Processing Techniques for Enhancing EFL Reading",
+            "Using Parameter Efficient Fine-Tuning on Legal Artificial Intelligence",
+            "中文訊息傳遞服務對話系統之建構",
+            "應用強化學習與知識圖譜於故事共述生成之研究"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chang-yen-liao": {
+        "name": "Liao, C. Y.",
+        "papers": [
+            "Exploring the Impact on Student Reading Preferences in Gamified Reading Portfolio",
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan",
+            "The Impact of Development-questioning Activities on Students' Pre-writing Ideas"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/feng-nan-hwang": {
+        "name": "Hwang, F. N.",
+        "papers": [
+            "ICCE 2023 Learning Outcomes of Computer Programming and Information Technology -Integrated Courses for Non-Computer Science Majors: Case Study of a Public Research University in Taiwan"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hsu-yung-cheng": {
+        "name": "Cheng, H. Y.",
+        "papers": [
+            "In-Air Handwriting for Chinese Character Recognition from Monocular Camera: A Deep Learning based Approach with Fingertip Detection and Virtual Strokes Elimination",
+            "Real-Time Object Detection and Tracking for Unmanned Aerial Vehicles Based on Convolutional Neural Networks"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/ju-ling-shih": {
+        "name": "Shih, J. L.",
+        "papers": [
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan",
+            "Replies to commentaries on IDC Theory in practice"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/li-chieh-chang": {
+        "name": "Chang, B.",
+        "papers": [
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/ying-tien-wu": {
+        "name": "Wu, Y. T.",
+        "papers": [
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chen-chung-liu": {
+        "name": "Liu, C. C.",
+        "papers": [
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan",
+            "The Design and Analysis of a Storytelling Chatbot with Natural Language Processing Techniques for Enhancing EFL Reading"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/hui-chun-hung": {
+        "name": "Hung, H. C.",
+        "papers": [
+            "Interest-Driven Creator Theory: case study of embodiment in an experimental school in Taiwan"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/shih-ching-yeh": {
+        "name": "Yeh, S. C.",
+        "papers": [
+            "Neuronal Correlates of Task Irrelevant Distractions Enhance the Detection of Attention Deficit/Hyperactivity Disorder",
+            "Qigong Master: A Qigong-Based Attention Training Game Using Action Recognition and Balance Analysis",
+            "The Swallowing Intelligent Assessment System Based on Tongue Strength and Surface EMG",
+            "Using wearable sensors to study the brain-heart interactions during attentional and resting states"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/de-ron-liang": {
+        "name": "Liang, D.",
+        "papers": [
+            "Optimization of message delivery reliability and throughput in a DDS-based system with per-publisher sending rate adjustment",
+            "Robust Model for Adversarial Attack Protection through Weak Features Removal",
+            "Role of Comprehensive Income in Predicting Bankruptcy",
+            "Using Block Filter Device for Acceleration of Storage Synchronization on Fault-tolerant Virtual Machines"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/chih-fong-tsai": {
+        "name": "Tsai, C. F.",
+        "papers": [
+            "Role of Comprehensive Income in Predicting Bankruptcy"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jieh-haur-chen": {
+        "name": "Chen, J. H.",
+        "papers": [
+            "Smart bridge maintenance using cluster merging algorithm based on self-organizing map optimization",
+            "Three-Dimensional Measurement of Fire-Damaged Concrete Crack Development Using X-Ray CT Images"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/mu-chun-su": {
+        "name": "Su, M. C.",
+        "papers": [
+            "Smart bridge maintenance using cluster merging algorithm based on self-organizing map optimization",
+            "Three-Dimensional Measurement of Fire-Damaged Concrete Crack Development Using X-Ray CT Images"
+        ]
+    },
+    "https://scholars.ncu.edu.tw/zh/persons/jui-fen-chang": {
+        "name": "Chang, J. F.",
+        "papers": [
+            "The Impact of Development-questioning Activities on Students' Pre-writing Ideas"
+        ]
+    }
+}
