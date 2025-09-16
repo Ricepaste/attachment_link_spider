@@ -6,21 +6,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
 import os
+import re # 用於正則表達式處理作者字符串
 
 # --- 配置區 ---
-START_URL = 'https://scholars.ncu.edu.tw/zh/publications/?organisationIds=3e96fdff-eb87-4166-8e98-56399da65648&nofollow=true&publicationYear=2022&publicationYear=2023&publicationYear=2024' # 更新後的 URL
-OUTPUT_FILENAME = 'ncu_papers_selenium_updated.json'
-WAIT_TIMEOUT = 45 # 等待元素出現的超時時間（秒）
-PAGE_LOAD_TIMEOUT = 120 # 頁面載入總超時時間
-STABILITY_PAUSE_TIME = 3 # 載入或滾動後額外等待時間
-SCREENSHOT_DIR = 'screenshots' # 截圖保存目錄
+START_URL = 'https://scholars.ncu.edu.tw/zh/publications/?organisationIds=3e96fdff-eb87-4166-8e98-56399da65648&nofollow=true&publicationYear=2022&publicationYear=2023&publicationYear=2024'
+OUTPUT_FILENAME = 'ncu_papers_selenium_full_authors.json' # 更新文件名
+WAIT_TIMEOUT = 45
+PAGE_LOAD_TIMEOUT = 120
+STABILITY_PAUSE_TIME = 3
+SCREENSHOT_DIR = 'screenshots'
 
-HEADLESS_MODE = False # 建議一開始設為 False，觀察瀏覽器行為
+HEADLESS_MODE = False
 USER_DATA_DIR = os.path.join(os.getcwd(), 'selenium_user_data')
 
 # --- 函數區 (與之前相同，略) ---
 def initialize_driver(headless=True, user_data_dir=None):
-    """初始化 undetected_chromedriver"""
     options = uc.ChromeOptions()
     if headless:
         options.add_argument("--headless=new")
@@ -42,7 +42,6 @@ def initialize_driver(headless=True, user_data_dir=None):
     return driver
 
 def take_screenshot(driver, name):
-    """拍攝螢幕截圖並保存"""
     if not os.path.exists(SCREENSHOT_DIR):
         os.makedirs(SCREENSHOT_DIR)
     filepath = os.path.join(SCREENSHOT_DIR, f"{name}.png")
@@ -53,7 +52,6 @@ def take_screenshot(driver, name):
         print(f"保存截圖失敗: {e}")
 
 def scroll_page(driver):
-    """模擬人類滾動行為"""
     print("模擬人類滾動行為...")
     driver.execute_script("window.scrollTo(0, Math.random() * window.innerHeight);")
     time.sleep(STABILITY_PAUSE_TIME)
@@ -63,8 +61,158 @@ def scroll_page(driver):
     time.sleep(STABILITY_PAUSE_TIME)
     print("滾動模擬完成。")
 
+def parse_authors(block_elem, driver, title):
+    """
+    從論文區塊中解析所有作者，並區分有連結和無連結的作者。
+    返回一個包含字典（有連結）和字串（無連結）的列表。
+    """
+    all_authors = []
+    
+    try:
+        # 首先提取所有有超連結的作者信息
+        # 選擇器保持不變，選中<a>標籤
+        linked_author_elements = block_elem.find_elements(By.CSS_SELECTOR, 'div.rendering a[rel="Person"][href*="/persons/"]')
+        
+        linked_author_names = []
+        for author_link_elem in linked_author_elements:
+            try:
+                author_span_elem = author_link_elem.find_element(By.TAG_NAME, 'span')
+                name = author_span_elem.text.strip()
+                url = author_link_elem.get_attribute('href')
+                if name and url:
+                    all_authors.append({"name": name, "url": url})
+                    linked_author_names.append(name) # 記錄這些已提取的名字
+            except NoSuchElementException:
+                # 如果 <a> 內沒有 <span>，則嘗試直接獲取 <a> 的文本
+                name = author_link_elem.text.strip()
+                url = author_link_elem.get_attribute('href')
+                if name and url:
+                    all_authors.append({"name": name, "url": url})
+                    linked_author_names.append(name)
+            except StaleElementReferenceException:
+                pass # 忽略這個錯誤
+
+        # 獲取包含作者信息的整個文本塊 (減去標題和日期等已知部分)
+        # 這是一個挑戰，因為沒有一個單獨的元素包裝所有作者。
+        # 我們嘗試獲取主要內容 div 的 outerHTML，然後使用正則表達式解析。
+        # 更準確的方法可能是獲取所有直接子節點並判斷。
+        
+        # 更好的方法：獲取包含所有作者信息的 rendering div 的所有子節點
+        # 然後過濾掉標題和日期等，只保留作者相關的文本或連結元素
+        rendering_div = block_elem.find_element(By.CSS_SELECTOR, 'div.rendering.rendering_researchoutput')
+        
+        # 獲取所有直接文本和元素節點
+        # ChromeDevToolsProtocol (CDP) 可能更適合，但複雜
+        # 這裡我們採取一個相對簡單的辦法：獲取整個 rendering_div 的 text
+        # 然後從中去除已知的連結作者和日期等，剩下的就是無連結作者。
+        full_text = rendering_div.text
+        
+        # 移除標題
+        title_elem = rendering_div.find_element(By.CSS_SELECTOR, 'h3.title a')
+        full_text = full_text.replace(title_elem.text.strip(), '').strip()
+        
+        # 移除已抓取的連結作者
+        for name in linked_author_names:
+            full_text = full_text.replace(name, '').strip()
+
+        # 移除年份 (假設日期格式為 'YYYY')
+        date_match = re.search(r'\b\d{4}\b', full_text)
+        if date_match:
+            full_text = full_text.replace(date_match.group(0), '').strip()
+        
+        # 移除其他已知可能干擾的模式，例如 'Computational Science and Its Applications – ICCSA 2024 Workshops, Proceedings.'
+        # 這是比較脆弱的，因為它依賴於特定的文本模式
+        # 一個更穩健的方法是識別日期 <span class="date">，然後獲取其之前的所有文本內容
+        
+        # 重新嘗試使用更精確的節點遍歷方法來獲取作者列表
+        all_author_nodes_html = driver.execute_script("""
+            var block = arguments[0];
+            var renderingDiv = block.querySelector('div.rendering.rendering_researchoutput');
+            if (!renderingDiv) return "";
+
+            var children = Array.from(renderingDiv.childNodes);
+            var authorsHtml = [];
+            var foundTitle = false;
+            var foundDate = false;
+
+            for (var i = 0; i < children.length; i++) {
+                var node = children[i];
+                if (node.nodeType === Node.ELEMENT_NODE && node.matches('h3.title')) {
+                    foundTitle = true; // 忽略標題
+                    continue;
+                }
+                if (foundTitle) { // 在標題之後開始尋找作者
+                    if (node.nodeType === Node.ELEMENT_NODE && node.matches('span.date')) {
+                        foundDate = true; // 遇到日期就停止收集作者
+                        break;
+                    }
+                    if (node.nodeType === Node.ELEMENT_NODE && node.matches('a[rel="Person"]')) {
+                        // 這是連結作者，我們已經單獨處理了，這裡可以跳過或者用來判斷邊界
+                        authorsHtml.push(node.outerHTML);
+                    } else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim().length > 0) {
+                        authorsHtml.push(node.textContent.trim());
+                    } else if (node.nodeType === Node.ELEMENT_NODE && node.textContent.trim().length > 0) {
+                        // 可能是一些無連結的作者被包裹在其他標籤裡，但沒有rel="Person"
+                        authorsHtml.push(node.textContent.trim());
+                    }
+                }
+            }
+            return authorsHtml.join(' ');
+        """, block_elem) # 將 block_elem 傳遞給 JavaScript
+
+        # 現在 all_author_nodes_html 包含了所有在標題和日期之間找到的文本和元素內容
+        # 我們需要從中提取無連結的作者
+        
+        # 將 HTML 字符串重新解析，找出所有不帶連結的作者
+        # 使用 BeautifulSoup 會更合適，但為了不引入新庫，我們用正則粗略處理
+        
+        # 一種更簡單但可能不那麼精確的方式是：
+        # 提取 rendering_div 內除了 title, date 之外的所有文本，然後去除 linked_author_names
+        full_authors_string = rendering_div.text
+        
+        # 剔除標題
+        if title:
+            full_authors_string = full_authors_string.replace(title, '', 1).strip()
+        
+        # 剔除年份（假設年份就在作者之後，且格式為YYYY）
+        date_span = rendering_div.find_elements(By.CSS_SELECTOR, 'span.date')
+        if date_span:
+            full_authors_string = full_authors_string.replace(date_span[0].text.strip(), '', 1).strip()
+
+        # 剔除有連結的作者
+        for name in linked_author_names:
+            full_authors_string = full_authors_string.replace(name, '', 1).strip() # 只替換一次，避免重複姓名問題
+
+        # 現在 full_authors_string 理論上只剩下無連結的作者名以及一些分隔符
+        # 我們需要將它拆分為個別的作者，並將其添加到 all_authors
+        # 假設無連結作者名之間用逗號分隔，且名稱後沒有其他非作者內容
+        # 例如: "Liang, K. W., Guo, Y. S., Wang, C. Y., Le, P. T., Putri, W. R., , Chang, P.-C. &amp; , "
+        
+        # 先清除多餘的逗號和 " &amp; "，然後根據逗號分割
+        # 這一步可能需要針對實際輸出進行調試和優化
+        cleaned_authors_string = re.sub(r'(,\s*){2,}', ', ', full_authors_string) # 清理多餘逗號
+        cleaned_authors_string = cleaned_authors_string.replace('&amp;', '&').replace('&', ',').strip() # 將 & 視為分隔符
+        
+        # 移除開頭或結尾可能的逗號
+        cleaned_authors_string = cleaned_authors_string.strip(',').strip()
+
+        # 分割成無連結作者
+        if cleaned_authors_string:
+            no_link_authors = [
+                author.strip() 
+                for author in cleaned_authors_string.split(',') 
+                if author.strip() and author.strip() not in linked_author_names
+            ]
+            for author in no_link_authors:
+                all_authors.append(author) # 以字串形式添加無連結作者
+
+    except Exception as e:
+        print(f"解析作者時發生錯誤: {e}")
+
+    return all_authors
+
+
 def scrape_page_data(driver, page_num):
-    """抓取當前頁面的論文數據"""
     data = []
     
     try:
@@ -88,7 +236,7 @@ def scrape_page_data(driver, page_num):
 
         for i, block in enumerate(paper_blocks):
             title = None
-            linked_authors = []
+            all_authors_list = [] # 現在用這個列表儲存所有作者
 
             try:
                 title_elem = block.find_element(By.CSS_SELECTOR, 'div.result-container h3 a')
@@ -96,31 +244,12 @@ def scrape_page_data(driver, page_num):
             except NoSuchElementException:
                 pass
 
-            try:
-                # *** 主要修改這裡：從<a>標籤內部尋找<span>標籤來獲取文本 ***
-                # 選擇器保持不變，選中<a>標籤
-                author_link_elements = block.find_elements(By.CSS_SELECTOR, 'div.result-container div.rendering a[rel="Person"][href*="/persons/"]')
-                for author_link_elem in author_link_elements:
-                    # 在每個找到的 <a> 標籤內，尋找 <span> 標籤並獲取其文本
-                    try:
-                        author_span_elem = author_link_elem.find_element(By.TAG_NAME, 'span')
-                        author_name = author_span_elem.text.strip()
-                        if author_name:
-                            linked_authors.append(author_name)
-                    except NoSuchElementException:
-                        # 如果 <a> 內沒有 <span>，則嘗試直接獲取 <a> 的文本
-                        author_name = author_link_elem.text.strip()
-                        if author_name:
-                            linked_authors.append(author_name)
-            except NoSuchElementException:
-                pass
-            except StaleElementReferenceException:
-                print(f"警告: 頁面 {page_num+1}, 第 {i+1} 篇論文在處理作者時遇到 StaleElementReferenceException。")
-                pass 
+            # 調用新的作者解析函數
+            all_authors_list = parse_authors(block, driver, title)
 
             data.append({
                 'title': title,
-                'linked_authors': linked_authors
+                'authors': all_authors_list # 鍵名改為 'authors'
             })
     except TimeoutException:
         print(f"警告: 頁面 {page_num+1} 等待論文列表超時，當前頁面可能沒有論文或載入失敗。")
@@ -131,7 +260,7 @@ def scrape_page_data(driver, page_num):
         
     return data
 
-# --- 主函數 (與之前相同，略) ---
+# --- 主函數 (與之前相同) ---
 def main():
     all_papers = []
     page_num = 0
@@ -213,6 +342,30 @@ def main():
         with open(OUTPUT_FILENAME, 'w', encoding='utf-8') as f:
             json.dump(all_papers, f, ensure_ascii=False, indent=4)
         print(f"\n爬取完成。共抓取到 {len(all_papers)} 篇論文。數據已保存到 {OUTPUT_FILENAME}")
+        
+        # --- 後處理數據，按教授超連結分類論文 ---
+        print("\n--- 正在進行數據後處理 (按教授分類論文) ---")
+        prof_papers = {}
+        for paper in all_papers:
+            title = paper['title']
+            for author in paper['authors']:
+                if isinstance(author, dict) and 'url' in author: # 判斷是有連結的教授
+                    prof_url = author['url']
+                    prof_name = author['name']
+                    
+                    if prof_url not in prof_papers:
+                        prof_papers[prof_url] = {
+                            'name': prof_name, # 記錄教授名字，方便識別
+                            'papers': []
+                        }
+                    prof_papers[prof_url]['papers'].append(title)
+        
+        # 保存分類後的數據
+        prof_output_filename = 'ncu_papers_by_professor.json'
+        with open(prof_output_filename, 'w', encoding='utf-8') as f:
+            json.dump(prof_papers, f, ensure_ascii=False, indent=4)
+        print(f"按教授分類的論文數據已保存到 {prof_output_filename}")
+
 
 if __name__ == '__main__':
     main()
