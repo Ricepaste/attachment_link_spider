@@ -22,7 +22,7 @@ def find_pages_linking_to_file_selenium(root_url, target_file_url, max_depth=3):
 
     # 初始化 Selenium
     options = Options()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     # options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     driver = webdriver.Chrome(service=Service("chromedriver.exe"), options=options)
@@ -85,7 +85,7 @@ def find_pages_linking_to_file_selenium(root_url, target_file_url, max_depth=3):
     return found_on_pages, failed_links
 
 # =========== 使用範例 ===========
-root_site = "https://oa-22.adm.ncu.edu.tw/"
-target_file = "https://oa-22.adm.ncu.edu.tw/word/%E5%9C%8B%E7%AB%8B%E5%A4%A7%E5%AD%B8%E6%A0%A1%E9%99%A2%E6%A0%A1%E5%8B%99%E5%9F%BA%E9%87%91%E8%A8%AD%E7%BD%AE%E6%A2%9D%E4%BE%8B.pdf"
+root_site = "https://ncu.edu.tw/rd/"
+target_file = "https://in.ncu.edu.tw/ncu7020/Files/Research/8.(%E7%A0%94%E7%99%BC%E6%9C%83%E5%BE%8C%E4%BF%AE%E6%AD%A3)-%E6%95%99%E5%B8%AB%E7%B8%BE%E5%84%AA%E5%B0%88%E5%88%A9%E5%8F%8A%E6%8A%80%E8%BD%89%E7%8D%8E%E5%8B%B5%E8%BE%A6%E6%B3%95.pdf"
 
 find_pages_linking_to_file_selenium(root_site, target_file, max_depth=10)
